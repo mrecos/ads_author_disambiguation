@@ -8,7 +8,7 @@ from modelling_config import PATH_TO_D2V_MODEL_ABSTRACTS, PATH_TO_D2V_MODEL_TITL
 from utils.helpers import convert_to_set, compute_diff, cosine_sim
 from utils.pipeline import *
 from utils.text_proc import extract_name_parts, extract_acronyms, extract_middle_name_initial
-from utils.tf_idf import create_corpus_from_docs, create_corpus_from_docs_keywords, \
+from utils.text_proc import create_corpus_from_docs, create_corpus_from_docs_keywords, \
     extract_top_keywords, extract_top_ngrams
 
 
